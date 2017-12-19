@@ -1,9 +1,9 @@
 -- 一、删除数据库
-DROP DATABASE IF EXISTS bedb ;
+DROP DATABASE IF EXISTS qlm ;
 -- 二、创建数据库
-CREATE DATABASE bedb CHARACTER SET UTF8 ;
+CREATE DATABASE qlm CHARACTER SET UTF8 ;
 -- 三、使用数据库
-USE bedb ;
+USE qlm ;
 -- 四、创建数据表
 -- 1、用户数据表
 CREATE TABLE member (
@@ -34,7 +34,7 @@ CREATE TABLE action (
 	actid 				INT 	AUTO_INCREMENT ,
 	title 				VARCHAR(50),
 	flag 				VARCHAR(50),
-	CONSTRAINT pk_actid PRIMARY KEY (actid) 
+	CONSTRAINT pk_actid PRIMARY KEY (actid)
 ) engine = innodb;
 -- 5、角色-权限关系表
 CREATE TABLE role_action (
@@ -88,7 +88,7 @@ CREATE TABLE bespeak (
 	CONSTRAINT pk_beid PRIMARY KEY (beid) ,
 	CONSTRAINT fk_engineid FOREIGN KEY(engineid) REFERENCES dictionary(dtid) ,
 	CONSTRAINT fk_eduid FOREIGN KEY(eduid) REFERENCES dictionary(dtid) ,
-	CONSTRAINT fk_srcid FOREIGN KEY(srcid) REFERENCES dictionary(dtid) 
+	CONSTRAINT fk_srcid FOREIGN KEY(srcid) REFERENCES dictionary(dtid)
 ) engine = innodb;
 
 -- 五、测试数据

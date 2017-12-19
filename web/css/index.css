@@ -1,0 +1,373 @@
+.row > div { /*设置与屏幕的*/
+    padding: 0;
+}
+
+#companyTitle div {
+    text-align: center;
+    white-space: nowrap;
+    font-family: '黑体';
+    padding: 5px
+}
+
+#companyTitle div:nth-child(1) {
+    margin-top: -22%;
+    color: #00a2e9;
+    font-size: 20px;
+}
+
+#advantage {
+    height: 30px;
+    background: white;
+    text-align: left;
+}
+
+#companyTitle div:nth-child(2) {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+#advantage img {
+    width: 60px;
+    padding: 8px;
+}
+
+.phonejianju * {
+    margin-left: 10px;
+}
+
+.phone {
+    font-family: '等线';
+    font-size: 12px;
+    color: #969696;
+}
+
+.title {
+    font-family: '黑体';
+    font-size: 14px;
+    color: #000000;
+}
+
+#service img {
+    height: 60px;
+}
+
+#wangzhan div, #wangzhan img {
+    margin-right: 0;
+}
+
+#ruanjian div, #ruanjian img {
+    margin-right: 0;
+}
+
+#service {
+    margin-top: 370px;
+}
+
+#service *:not(#myservice) {
+    font-size: 12px;
+    font-family: "黑体";
+    color: #969696;
+}
+
+#myservice {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "黑体";
+    color: #000000;
+}
+
+#service > div {
+    height: 250px;
+}
+
+#buzhou img {
+    height: 40px;
+}
+
+#xiangmuyuyue input, #xiangmuyuyue select {
+    font-family: "等线";
+    margin: 5 5 5 0;
+}
+
+#xiangmuyuyue button {
+    font-family: "等线";
+}
+
+#xiangmuyuyue textarea {
+    font-family: "等线";
+}
+
+#claimDiv {
+    padding: 5px;
+}
+
+#xiangmuyuyue button {
+    border: solid #00a2e9;
+    color: black;
+    background: #00a2e9;
+}
+#logo {
+    width: 20px;
+}
+#logoDiv{
+    margin-top: 10px;
+}
+@media (min-width: 680px) {
+    #logo {
+        width: 30px;
+    }
+    #logoDiv{
+        margin-top: 20px;
+    }
+    #companyTitle div:nth-child(1) {
+        font-size: 30px;
+    }
+
+    #advantage {
+        height: 60px;
+        text-align: left;
+
+    }
+
+    #service {
+        margin-top: 350px;
+    }
+
+    #companyTitle div:nth-child(2) {
+        font-size: 20px;
+    }
+
+    #advantage img {
+        width: 80px;
+        padding: 12px;
+    }
+
+    #service *:not(#myservice) {
+        font-size: 12px;
+        font-family: "黑体";
+        color: #969696;
+    }
+
+    #myservice {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: "黑体";
+        color: #000000;
+    }
+
+    #buzhou img {
+        height: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    #logo {
+        width: 40px;
+    }
+    #companyTitle div:nth-child(1) {
+        font-size: 40px;
+    }
+
+    #companyTitle div:nth-child(2) {
+        font-size: 30px;
+    }
+
+    #advantage {
+        height: 80px;
+        text-align: center;
+    }
+
+    #advantage img {
+        width: 80px;
+        padding: 16px
+    }
+
+    #service {
+        margin-top: 100px;
+    }
+
+    #service > div {
+        height: 500px;
+    }
+
+    #price span, #advantage span {
+        font-family: '黑体';
+        font-size: 20px;
+        color: #000000;
+    }
+
+    #price p {
+        font-family: '等线';
+        font-size: 14px;
+        color: #646464;
+    }
+
+    #service *:not(#myservice) {
+        font-size: 12px;
+        font-family: "黑体";
+        color: #969696;
+    }
+
+    #myservice {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: "黑体";
+        color: #000000;
+    }
+
+    #service img {
+        height: 120px;
+    }
+
+    #wangzhan div {
+        margin-right: 0px;
+    }
+
+    #ruanjian div {
+        margin-right: 0px;
+    }
+
+    #buzhou img {
+        height: 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #companyTitle div:nth-child(1) {
+        font-size: 55px;
+    }
+
+    #advantage {
+        height: 100px;
+        text-align: center;
+    }
+
+    #companyTitle div:nth-child(2) {
+        font-size: 35px;
+    }
+
+    #advantage img {
+        width: 100px;
+        padding: 20px
+    }
+
+    #fengexian {
+        margin-top: -10px;
+    }
+
+    #price span, #advantage span {
+        font-family: '黑体';
+        font-size: 20px;
+        color: #000000;
+    }
+
+    #price p {
+        font-family: '等线';
+        font-size: 14px;
+        color: #646464;
+    }
+
+    #service {
+        margin-top: 50px;
+    }
+
+    #wangzhan div, #wangzhan img {
+        margin-right: -400px;
+    }
+
+    #ruanjian div, #ruanjian img {
+        margin-right: 400px;
+    }
+
+    #service *:not(#myservice) {
+        font-size: 15px;
+        font-family: "黑体";
+        color: #969696;
+    }
+
+    #service img {
+        height: 150px;
+    }
+
+    #service > div {
+        height: 800px;
+    }
+
+    #myservice {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-size: 30px;
+        font-family: "黑体";
+        color: #000000;
+    }
+
+    #buzhou img {
+        height: 100px;
+    }
+
+    #formDiv {
+        margin-top: -1750px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.2);
+
+    }
+
+    #xiangmuyuyue input, #xiangmuyuyue select {
+        background: rgb(50, 50, 50);
+        border: solid rgb(50, 50, 50);
+        height: 50px;
+        font-size: 16px;
+        color: white;
+
+    }
+
+    #rand {
+        background: rgb(50, 50, 50);
+        border: solid rgb(50, 50, 50);
+        width: 150px;
+        height: 50px;
+    }
+
+    #xiangmuyuyue textarea {
+        background: rgb(50, 50, 50);
+        border: solid rgb(50, 50, 50);
+        height: 50px;
+        margin-top: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    #xiangmuyuyue button {
+        height: 50px;
+        font-family: 等线;
+        border: solid #00a2e9;
+        color: black;
+        background: #00a2e9;
+        /*background: radial-gradient(circle, red, yellow, green);圆形渐变*/
+        font-size: 20px;
+
+    }
+
+    select option {
+        color: white;
+    }
+
+    #claim {
+        width: 270px;
+        height: 50px;
+        resize: none;
+        overflow-y: hidden;
+    }
+
+    #claimDiv {
+        text-align: right;
+        padding: 5px;
+    }
+
+    #logo {
+        width: 60px;
+    }
+}
